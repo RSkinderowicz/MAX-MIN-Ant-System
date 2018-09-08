@@ -436,8 +436,8 @@ pair<double, double> calc_trail_limits_mmas(const MMASParameters &params,
 }
 
 /**
- * Runs the ACS for the given number of iterations.
- * Returns the best solution (ant).
+ * Runs the MMAS for the given number of iterations.
+ * Returns the best solution (ant) found.
  */
 Ant run_mmas(const ProblemInstance &instance, const MMASParameters &params,
              uint32_t iterations) {
